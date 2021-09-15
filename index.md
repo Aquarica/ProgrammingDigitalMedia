@@ -7,4 +7,4 @@
 ## 3D Art
 - test 1
 - test 2
-<iframe src = "aquarica.github.io/ProgrammingDigitalMedia/sketches/etc...." style="width=60%"></iframe>
+<iframe src = "aquarica.github.io/ProgrammingDigitalMedia/sketches/1" style="width=60%"></iframe>
