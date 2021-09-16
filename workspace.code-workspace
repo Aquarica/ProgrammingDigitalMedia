@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Visual Studio\\dig5508-f21-Aquarica"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProgrammingDigitalMedia"
+	}
+}
