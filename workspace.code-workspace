@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "ProgrammingDigitalMedia"
+		"liveServer.settings.multiRootWorkspaceName": "ProgrammingDigitalMedia",
+		"gitdoc.enabled": true
 	}
 }
