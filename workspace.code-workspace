@@ -1,14 +1,20 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "..\\Visual Studio\\dig5508-f21-Aquarica"
 		},
 		{
-			"path": "..\\Visual Studio\\dig5508-f21-Aquarica"
+			"path": "..\\Lab 5 Repository\\lab-5-rpg-shared"
+		},
+		{
+			"path": "..\\..\\Media Theory\\UnsolvedMysteries"
+		},
+		{
+			"path": "."
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "ProgrammingDigitalMedia",
+		"liveServer.settings.multiRootWorkspaceName": "lab-5-rpg-shared",
 		"gitdoc.enabled": true
 	}
 }
