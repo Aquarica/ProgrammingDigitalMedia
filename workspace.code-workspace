@@ -4,17 +4,17 @@
 			"path": "..\\Visual Studio\\dig5508-f21-Aquarica"
 		},
 		{
-			"path": "..\\Lab 5 Repository\\lab-5-rpg-shared"
-		},
-		{
 			"path": "..\\..\\Media Theory\\UnsolvedMysteries"
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\Lab 5 Repository\\labs-shared"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "dig5508-f21-Aquarica",
+		"liveServer.settings.multiRootWorkspaceName": "labs-shared",
 		"gitdoc.enabled": true
 	}
 }
