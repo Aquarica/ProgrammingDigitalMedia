@@ -136,6 +136,8 @@ function createRandomArray() {
     }
 }
 
+
+//This is the old sketch to put somewhere else later
 // // All the paths
 // let paths = [];
 // // Are we painting?
