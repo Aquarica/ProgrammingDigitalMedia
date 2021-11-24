@@ -8,7 +8,7 @@
 - Week 1
 - Week 3
 
-<iframe src = "https://aquarica.github.io/ProgrammingDigitalMedia/Sketches/1/index.html" style="width:100%"></iframe>
+<iframe src = "https://aquarica.github.io/ProgrammingDigitalMedia/Sketches/1/index.html" style="width:100%; height: 100%"></iframe>
 
-<iframe src = "https://aquarica.github.io/ProgrammingDigitalMedia/Lab5/index.html" style="width:100%"></iframe>
+<iframe src = "https://aquarica.github.io/ProgrammingDigitalMedia/Lab5/index.html" style="width:100%; height: 100%"></iframe>
 
