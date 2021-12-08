@@ -29,6 +29,7 @@ function textManage() {
     if (infoMenu) {
         tipText = " "
     } else {
+        //menu text and bg
         tipText = "Info... \n i: toggle menu \n p: pause/play \n x: new random board \n c: clear board \n r: toggle rule randomization \n click: change cell color"
         fill(50)
         rectMode(CENTER)
@@ -40,13 +41,14 @@ function textManage() {
         textAlign(LEFT, CENTER);
         text(tipText, width / 2 - 130, height / 2);
     }
-
+    //corner info text
     textSize(14)
     textAlign(LEFT, TOP);
     fill(textColor)
     strokeWeight(3)
     text(menuText, 5, 5);
 
+    //reset normals
     strokeWeight(0.5)
     rectMode(CORNER)
 }
@@ -139,6 +141,7 @@ class LifeBoard {
                 // Count neighbors 
                 let sum = 0;
                 let neighbors = this.countNeighbors(grid, i, j);
+                //Rule set 1, non random rules
                 if (nonRandomizeRules) {
                     if (state == 0 && neighbors == 3) {
                         next[i][j] = 4;
@@ -155,7 +158,8 @@ class LifeBoard {
                     else {
                         next[i][j] = state;
                     }
-                } else {
+                } //rule set 2, slight randomness
+                else {
                     if (state == 0 && neighbors == 3) {
                         next[i][j] = floor(random(5));
                     } else if (state == 1 && (neighbors < 2 || neighbors > 3)) {
@@ -174,6 +178,8 @@ class LifeBoard {
 
         grid = next;
     }
+
+    //when a cell is clicked the color will change (and counts as 1 more neighbor)
     colorChange() {
         for (let i = 0; i < this.cols; i++) {
             for (let j = 0; j < this.rows; j++) {
@@ -205,6 +211,7 @@ class LifeBoard {
         }
     }
 
+    //provides blank board
     boardClear() {
         for (let i = 0; i < cols; i++) {
             for (let j = 0; j < rows; j++) {
