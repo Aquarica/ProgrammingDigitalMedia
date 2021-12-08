@@ -1,4 +1,5 @@
 # DIG5508-FinalProject
+GitHub Page: https://aquarica.github.io/ProgrammingDigitalMedia/
  Colorful Game of Life:
  Follows a modified version of Conway's Game of Life
 
