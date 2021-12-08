@@ -31,4 +31,5 @@ Beyond that the cell remains the same.
 This set of rules was provided because it of the visual interest provided by the introduction of a bit of random chance. 
 
 The idea is to allow the player to modify the game of life while running to produce visually interesting patterns/animations. 
+I wanted to make it so the user could modify the resolution of the game of life to have more or less squares but I was having issues trying to get the board to adjust to the resolution change. 
 
