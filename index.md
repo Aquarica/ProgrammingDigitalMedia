@@ -2,7 +2,7 @@
 ## Generate new boards and click cells to change the game of life as it runs to make interest visual patterns. You can start from a clean board or a randomly generated one. Make changes while it runs or pause to make several changes at once. 
 ## Fun Fact: Each color counts as a different amount of neighbors. 
 
-<iframe src = "https://aquarica.github.io/ProgrammingDigitalMedia/Sketches/1/index.html" style="width:600px; height: 400px"></iframe>
+<iframe src = "https://aquarica.github.io/ProgrammingDigitalMedia/FinalProject/1/index.html" style="width:600px; height: 400px"></iframe>
 
 ### You can click a cell to change the color and different colors correspond to neighbor counts 
 ###  black = 0 (considered a dead cell)
