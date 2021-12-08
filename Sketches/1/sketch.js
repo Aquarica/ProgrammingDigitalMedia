@@ -67,29 +67,12 @@ function keyPressed() {
         startGame = !startGame;
     }
 
-    // if (keyCode === LEFT_ARROW) {
-    //     if (resolution >= 5) {
-    //         resolution = resolution - 1;
-    //         console.log(resolution);
-    //         cols = width / resolution;
-    //         rows = height / resolution;
-    //         gridSet = new LifeBoard(cols, rows);
-    //         gridSet.createRandomArray();
-    //     }
-    // }
-    // if (keyCode === RIGHT_ARROW) {
-    //     if (resolution <= 20) {
-    //         resolution = resolution + 1;
-    //         console.log(resolution);
-    //     }
-    // }
-
-    //clears the board
-    if (keyCode === UP_ARROW) {
+    //clears the board key c
+    if (keyCode === 67) {
         gridSet.boardClear()
     }
-    //makes new random array
-    if (keyCode === DOWN_ARROW) {
+    //makes new random array key x
+    if (keyCode === 88) {
         gridSet.createRandomArray()
     }
     //r key, makes it so rules can have some randomization
